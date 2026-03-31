@@ -1,0 +1,17 @@
+MATLAB figures are displayed interactively when the scripts run.
+
+To save them to this folder, add the following after each figure() call in the scripts:
+
+  saveas(gcf, fullfile('figures', 'figure_name.png'));
+
+Expected figures:
+  fig1_transmitter_spectra.png     — time & frequency domain plots (transmitter.m)
+  fig2_rf_filter_output.png        — RF filter output
+  fig3_rf_mixer_output.png         — RF mixer output (before IF filter)
+  fig4_if_filter_output.png        — IF filter output
+  fig5_coherent_demod_output.png   — coherent demodulator output (before LPF)
+  fig6_lpf_output.png              — LPF output (recovered baseband)
+  fig7_no_rf_mixer_output.png      — RF mixer output without RF filter
+  fig8_no_rf_if_filter.png         — IF filter output without RF filter
+  fig9_no_rf_demod_output.png      — demodulator output without RF filter
+  fig10_no_rf_lpf_output.png       — LPF output without RF filter

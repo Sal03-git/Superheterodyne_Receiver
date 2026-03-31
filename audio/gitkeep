@@ -1,0 +1,17 @@
+Place your audio files here before running the scripts.
+
+REQUIRED INPUT FILES
+──────────────────────────────────────
+  Conference.wav   — first audio signal (any mono or stereo .wav)
+  Sports.wav       — second audio signal (any mono or stereo .wav)
+
+GENERATED OUTPUT FILES (created automatically by the scripts)
+──────────────────────────────────────
+  fdmSignal.wav           — FDM composite signal (output of transmitter.m)
+  if_signal1.wav          — IF-filtered signal 1 (output of receiver.m)
+  if_signal2.wav          — IF-filtered signal 2 (output of receiver.m)
+  demodulated_signal1.wav — recovered audio signal 1 (44.1 kHz)
+  demodulated_signal2.wav — recovered audio signal 2 (44.1 kHz)
+
+NOTE: All .wav files are excluded from version control via .gitignore
+because they are large binary files. Add your own input files locally.

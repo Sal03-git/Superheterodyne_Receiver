@@ -1,0 +1,20 @@
+# MATLAB artifacts
+*.asv
+*.m~
+*.mex*
+octave-workspace
+
+# Audio files (large binaries — keep locally)
+audio/*.wav
+
+# Keep folder tracked
+!audio/.gitkeep
+!figures/.gitkeep
+
+# Generated figures
+figures/*.png
+figures/*.fig
+
+# OS
+.DS_Store
+Thumbs.db
